@@ -1,0 +1,18 @@
+.header-container {
+  text-align: center;
+  align-self: stretch;
+  background-color: #cbd5e1;
+  margin-top: 10px;
+}
+
+.header-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-text {
+    font-size: 22px;
+  }
+}
